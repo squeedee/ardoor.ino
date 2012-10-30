@@ -34,7 +34,8 @@ P(open_template) =
   "<title>Ardoorino</title>"
   "<link href='css' rel='stylesheet' type='text/css'>"
   "</head>"
-  "<body>";
+  "<body>"
+  "<h1>Ardoorino</h1>";
 
 P(close_template) = 
   "</body>";  
@@ -48,6 +49,17 @@ P(door_button_page_part_2) =
   "</div>";
 
 P(css) =
+  "h1 {"
+  "text-align: center;"
+  "text-transform: uppercase;"
+  "font-size: 22px;"
+  "font-family:Arial;"
+  "color: #6B1C0E;"
+  "margin-top: 22px;"
+  "}"
+  "body {"
+  "background-color:#ffffff;"
+  "}"
   ".button {"
   "-moz-box-shadow: 2px 2px 7px 0px #212e16;"
   "-webkit-box-shadow: 2px 2px 7px 0px #212e16;"
